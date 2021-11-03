@@ -104,3 +104,14 @@ span.space {
   left: 0;
   content: "Eastern"
 }
+
+section {
+  text-align: left;
+  margin: auto;
+  padding: 1em;
+  max-width: 800px;
+}
+
+section p {
+  text-transform: none;
+}
