@@ -27,7 +27,7 @@ h1 {
 
 .justify {
   display: grid;
-  gap: 0.5em;
+  gap: 10px;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -43,8 +43,8 @@ h1 {
   h1 {
     font-size: 20vw;
   }
-  h1.right {
-    display: none;
+  .justify {
+    grid-template-columns: 1fr;
   }
 }
 
