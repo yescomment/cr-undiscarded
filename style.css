@@ -100,12 +100,7 @@ span.space {
   position: absolute;
 }
 
-#live-scored:hover::before {
-  right: 0;
-  content: "CLOSING SET BY";
-}
-
-#dj-nalroc:hover::after {
+.hoverchange.timemit:hover::after {
   left: 0;
-  content: "Cortland Mahoney"
+  content: "Eastern"
 }
