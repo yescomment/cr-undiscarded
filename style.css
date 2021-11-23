@@ -79,7 +79,7 @@ span.space {
   overflow: visible;
 }
 
-.scroller #door {
+.scroller .countdown {
   pointer-events: none; /* don't block link */
   position: absolute;
   left: 50%;
