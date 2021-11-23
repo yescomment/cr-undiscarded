@@ -115,3 +115,18 @@ section {
 section p {
   text-transform: none;
 }
+
+/* a11y */
+
+.reducedmotion-only {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion) {
+  .highmotion {
+    visibility: hidden;
+  }
+  .reducedmotion-only {
+    visibility: visible;
+  }
+}
