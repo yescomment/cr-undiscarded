@@ -81,25 +81,6 @@ span.space {
   line-height: .9em;
 }
 
-.scroller {
-  width: 80%;
-  margin: 10px;
-  overflow: visible;
-  position: relative;
-  margin: 100px auto;
-}
-
-.scroller svg {
-  overflow: visible;
-}
-
-.scroller .center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .hoverchange:hover {
   position: relative;
   visibility: hidden;
