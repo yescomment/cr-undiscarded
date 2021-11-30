@@ -15,6 +15,31 @@ header {
   max-width: 800px;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+  font-family: system-ui, -apple-system, "San Francisco", "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+header aside {
+  font-size: min(1em, 5vw);
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 0.3em 0;
+  border: 3px #653508;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+header .logo {
+  max-height: 12rem;
+  max-width: 30%;
+  margin: 1em;
+}
+
 h1, h2, h3 {
   margin: 28px 0;
   font-family: 'Crayonette DJR', cursive;
@@ -41,6 +66,11 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
+  header aside {
+    font-weight: 500;
+    border-width: 2px;
+  }
+
   h1 {
   font-size: 4rem;
   }
