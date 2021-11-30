@@ -5,7 +5,7 @@ html {
 body {
   color: #653508;
   background-color: #f5f0e6;
-  font-family: system-ui, -apple-system, "San Francisco", "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Fern Web', system-ui, serif;
   margin: 0;
   width: 100vw;
   overflow-x: hidden;
@@ -41,6 +41,12 @@ header .logo {
   max-height: 12rem;
   max-width: 30%;
   margin: 1em;
+}
+
+#letter p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 h1, h2, h3 {
