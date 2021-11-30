@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Crayonette DJR';
+  src: url('fonts/CrayonetteDJR-Regular.eot'); /* IE < 9 */
+  src: url('fonts/CrayonetteDJR-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
+       url('fonts/CrayonetteDJR-Regular.woff2') format("woff2"),
+       url('fonts/CrayonetteDJR-Regular.woff')  format("woff");
+  font-style: normal;
+  font-weight: normal;
+}

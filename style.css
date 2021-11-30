@@ -1,11 +1,13 @@
 body {
-  font-family: system-ui, -apple-system, "San Francisco", "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
-  text-transform: uppercase;
+  font-family: system-ui, -apple-system, "San Francisco", "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin: 0;
-  text-align: center;
   font-size: 24px;
   width: 100vw;
   overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Crayonette DJR', cursive;
 }
 
 header {
@@ -54,10 +56,6 @@ h1, h2 {
   .justify {
     grid-template-columns: 1fr;
   }
-}
-
-h2, h3, h4, h5, h6 {
-  white-space: pre-wrap;
 }
 
 a {
