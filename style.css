@@ -38,8 +38,8 @@ header aside {
 }
 
 header .logo {
+  align-self: center;
   max-height: 12rem;
-  max-width: 30%;
   margin: 1em;
 }
 
@@ -76,11 +76,14 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
+  html {
+    font-size: 20px;
+  }
+
   header aside {
     font-weight: 500;
     border-width: 2px;
   }
-
   h1 {
     font-size: 3rem;
   }
@@ -90,9 +93,20 @@ h3 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
+  header {
+    flex-direction: column;
+  }
+
   header aside {
-    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em 3em;
+  }
+
+  h1, h2, h3, p {
+    hyphens: auto;
+    -webkit-hyphens: auto;
   }
 }
 
