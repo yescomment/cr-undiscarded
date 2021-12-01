@@ -98,10 +98,16 @@ h3 {
 a {
   color: inherit;
   font-weight: 600;
-  text-decoration-color: #cccccc;
+  text-decoration-color: #dccccc;
   text-decoration-thickness: 2px;
 }
 
 a:hover {
   text-decoration-color: currentColor;
+}
+
+.special {
+  /* holiday cheer */
+  color: #df2021 !important;
+  text-decoration-color: #df2021;
 }
