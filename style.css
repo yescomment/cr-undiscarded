@@ -50,6 +50,7 @@ header .logo {
 }
 
 h1, h2, h3 {
+  font-weight: normal;
   margin: 28px 0;
   font-family: 'Crayonette DJR', cursive;
 }
