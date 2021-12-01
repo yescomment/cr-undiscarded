@@ -105,6 +105,10 @@ h3 {
     text-align: center;
     font-size: 2.4rem;
   }
+
+  .links {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
