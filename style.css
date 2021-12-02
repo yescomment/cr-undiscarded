@@ -70,6 +70,12 @@ h3 {
   font-size: 2rem;
 }
 
+small {
+  /* all small caps */
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
 .number {
   margin-bottom: 0;
 }
