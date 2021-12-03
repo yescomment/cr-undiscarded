@@ -84,6 +84,26 @@ small {
   margin-top: 0;
 }
 
+figure {
+  margin: 1em 0;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+figure figcaption {
+  padding: 0 1em;
+  font-size: 0.7em;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+figcaption.date {
+  font-style: italic;
+}
+
 @media screen and (max-width: 800px) {
   html {
     font-size: 20px;
