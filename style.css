@@ -40,7 +40,6 @@ header aside {
 header .logo {
   align-self: center;
   max-height: 12rem;
-  max-width: 100%;
   object-fit: contain;
   margin: 1em;
 }
