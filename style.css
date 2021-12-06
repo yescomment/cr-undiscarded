@@ -111,6 +111,13 @@ section#gallery > *:not(.carousell) {
   margin: 0 calc(50vw - 400px); /* omg it works */
 }
 
+@media screen and (max-width: 800px) {
+  .carousell .wolfinger {
+    width: calc(((100vw - 2em) + 1em) * 17);
+    margin: 0 1em;
+  }
+}
+
 figure {
   margin: 0;
 }
@@ -136,6 +143,7 @@ figcaption.date {
 }
 
 @media screen and (max-width: 800px) {
+  /* see also above for .carousell (keeping with its calc()-heavy styles) */
   html {
     font-size: 20px;
   }
