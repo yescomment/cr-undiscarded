@@ -138,6 +138,8 @@ figure figcaption {
   font-size: 0.7em;
   text-transform: lowercase;
   font-variant: small-caps;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 figcaption.date {
