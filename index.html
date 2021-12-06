@@ -10,6 +10,32 @@
   <link rel="stylesheet" href="typography.css">
   <!-- Fathom Analytics -->
   <script src="https://animal-raincoat.old.museum/script.js" data-site="CUAPFZUK" defer></script>
+  <script defer>
+    window.onload = function() {
+      const carousell = {
+        moving: true,
+        element: document.getElementById('carousell'),
+      }
+
+      function nudgeCarousell() {
+        if (carousell.moving) {
+          carousell.element.scrollBy(1,0)
+        }
+        window.requestAnimationFrame(nudgeCarousell)
+      }
+
+      carousell.element.addEventListener('mouseenter', () => {
+        carousell.moving = false
+      })
+
+      carousell.element.addEventListener('mouseleave', () => {
+        carousell.moving = true
+      })
+
+      nudgeCarousell()
+    }
+
+  </script>
 </head>
 <body>
   <header>
@@ -63,7 +89,7 @@
   </section>
   <section id="gallery">
     <h2>Photographic evidence</h2>
-    <div class="carousell">
+    <div id="carousell" class="carousell">
       <div class="wolfinger">
         <figure>
           <img src="/photographs/IMG_0713.jpeg" alt="woman looks at petrified cake">
