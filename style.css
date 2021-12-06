@@ -109,6 +109,7 @@ section#gallery > *:not(.carousell) {
 
   width: calc((800px + 1em) * 17); /* must be # of children */
   margin: 0 calc(50vw - 400px); /* omg it works */
+  /* TODO: margin-right is actually ignored https://stackoverflow.com/q/38993170/1489243 */
 }
 
 @media screen and (max-width: 800px) {
