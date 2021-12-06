@@ -84,8 +84,39 @@ small {
   margin-top: 0;
 }
 
-figure {
+section#gallery {
+  max-width: unset;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section#gallery > *:not(.carousell) {
+  max-width: 800px;
+  margin: auto;
+
+  overflow-y: scroll;
+}
+
+.carousell {
+  /* en.wikipedia.org/wiki/B%26B_Carousell */
+  overflow-y: scroll;
   margin: 1em 0;
+}
+
+.carousell .wolfinger {
+  display: flex;
+  flex-direction: row;
+
+  width: calc((800px + 1em) * 17); /* must be # of children */
+  margin: 0 calc(50vw - 400px); /* omg it works */
+}
+
+figure {
+  margin: 0;
+}
+
+figure + figure {
+  margin-left: 1em;
 }
 
 figure img {
