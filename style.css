@@ -106,6 +106,7 @@ section#gallery > *:not(.carousell) {
 .carousell .wolfinger {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 
   width: calc((800px + 1em) * 17); /* must be # of children */
   margin: 0 calc(50vw - 400px); /* omg it works */
