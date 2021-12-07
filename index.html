@@ -28,7 +28,7 @@
         carousell.moving = false
       })
 
-      carousell.element.addEventListener('touchdown', () => {
+      carousell.element.addEventListener('touchstart', () => {
         carousell.moving = false
       })
 
@@ -36,7 +36,7 @@
         carousell.moving = true
       })
 
-      carousell.element.addEventListener('touchup', () => {
+      carousell.element.addEventListener('touchend', () => {
         setTimeout(() => {
           carousell.moving = true
         }, 5000)
