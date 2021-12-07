@@ -28,8 +28,18 @@
         carousell.moving = false
       })
 
+      carousell.element.addEventListener('touchdown', () => {
+        carousell.moving = false
+      })
+
       carousell.element.addEventListener('mouseleave', () => {
         carousell.moving = true
+      })
+
+      carousell.element.addEventListener('touchup', () => {
+        setTimeout(() => {
+          carousell.moving = true
+        }, 5000)
       })
 
       nudgeCarousell()
