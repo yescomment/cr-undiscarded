@@ -40,10 +40,16 @@ footer aside {
   border-bottom-style: solid;
 }
 
+header a,
+footer a {
+  flex-basis: 150px;
+  flex-grow: 0;
+}
+
 header .logo,
 footer .logo {
   align-self: center;
-  max-height: 12rem;
+  max-height: 8rem;
   object-fit: contain;
   margin: 1em;
 }
@@ -55,10 +61,13 @@ footer .logo {
 }
 
 h1 {
-  font-size: 120px;
+  font-size: min(8rem, 20vw);
   font-family: 'Whirly Birdie', Impact, sans-serif;
   font-variation-settings: 'wght' 50, 'wdth' 50, 'ital' 0;
-  margin:  28px 0;
+  margin: 28px 0;
+  font-style: italic;
+  transform: rotate(-12deg);
+  text-align: center;
 }
 
 .showtitle {
@@ -95,13 +104,6 @@ li em::before {
 
 li em::after {
   content: ' ]';
-}
-
-h1 {
-  font-style: italic;
-  transform: rotate(-12deg);
-  text-align: center;
-  font-size: 8rem;
 }
 
 h2 {
@@ -155,13 +157,6 @@ section#gallery > *:not(.carousell) {
   /* TODO: margin-right is actually ignored https://stackoverflow.com/q/38993170/1489243 */
 }
 
-@media screen and (max-width: 800px) {
-  .carousell .wolfinger {
-    width: calc(((100vw - 2em) + 1em) * 17);
-    margin: 0 1em;
-  }
-}
-
 figure {
   margin: 0;
 }
@@ -212,10 +207,6 @@ figcaption.date {
 
   h2 {
     margin: 56px 0 18px;
-  }
-
-  h1 {
-    font-size: 8rem;
   }
 
   h2 {
