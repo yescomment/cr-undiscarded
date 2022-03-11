@@ -4,6 +4,23 @@
 }
 
 @font-face {
+  src: url('fonts/WarblerText-Regular.woff2') format("woff2"),
+       url('fonts/WarblerText-Regular.woff') format("woff");
+  font-family: 'Warbler Text Web';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('fonts/WarblerText-Italic.woff2') format("woff2"),
+       url('fonts/WarblerText-Italic.woff') format("woff");
+  font-family: 'Warbler Text Web';
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+@font-face {
   font-family: 'Crayonette DJR';
   src: url('fonts/CrayonetteDJR-Regular.eot'); /* IE < 9 */
   src: url('fonts/CrayonetteDJR-Regular.eot?#') format("embedded-opentype"), /* IE 9 */
