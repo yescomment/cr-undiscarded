@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #653508;
-  background-color: #f5f0e6;
+  color: #e8e8a3;
+  background-color: #36ace5;
   font-family: 'Fern Web', system-ui, serif;
   margin: 0;
   width: 100vw;
@@ -35,7 +35,7 @@ footer aside {
   text-transform: uppercase;
   margin: auto;
   padding: 0.3em 0;
-  border: 3px #653508;
+  border: 3px #e8e8a3;
   border-top-style: solid;
   border-bottom-style: solid;
 }
@@ -239,8 +239,12 @@ figcaption.date {
 a {
   color: inherit;
   font-weight: 600;
-  text-decoration-color: #dccccc;
+  text-decoration-color: #f8d8c3;
   text-decoration-thickness: 2px;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
 }
 
 a.secret {
@@ -252,14 +256,9 @@ a.secret:hover {
   color: #df2021;
 }
 
-a:hover {
-  text-decoration-color: currentColor;
-}
-
 .special {
-  /* holiday cheer */
-  color: #df2021 !important;
-  text-decoration-color: #df2021;
+  color: #dc1d35 !important;
+  text-decoration-color: #dc1d35;
 }
 
 /* 𝓙𝓪𝓬𝓸𝓫 𝓕𝓸𝓻𝓭, 2021 */
