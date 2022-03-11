@@ -12,19 +12,22 @@ body {
 }
 
 section,
-header {
+header,
+footer {
   margin: auto;
   padding: 1em;
   max-width: 800px;
 }
 
-header {
+header,
+footer {
   display: flex;
   justify-content: space-around;
   font-family: system-ui, -apple-system, "San Francisco", "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-header aside {
+header aside,
+footer aside {
   font-size: min(1em, 5vw);
   text-align: center;
   font-weight: 700;
@@ -37,7 +40,8 @@ header aside {
   border-bottom-style: solid;
 }
 
-header .logo {
+header .logo,
+footer .logo {
   align-self: center;
   max-height: 12rem;
   object-fit: contain;
@@ -151,13 +155,15 @@ figcaption.date {
     font-size: 20px;
   }
 
-  header aside {
+  header aside,
+  footer aside {
     font-weight: 500;
     border-width: 2px;
   }
 
   section,
-  header {
+  header,
+  footer {
     padding: 0 1em;
   }
 
@@ -180,11 +186,13 @@ figcaption.date {
 }
 
 @media screen and (max-width: 350px) {
-  header {
+  header,
+  footer {
     flex-direction: column;
   }
 
-  header aside {
+  header aside,
+  footer aside {
     box-sizing: border-box;
     width: 100%;
     padding: 1em 3em;
