@@ -61,8 +61,14 @@ h1 {
   margin:  28px 0;
 }
 
-.subtitle {
+.showtitle {
   text-align: center;
+}
+
+.showtitle small {
+  font-size: 0.5em;
+  font-variant-caps: all-small-caps;
+  font-style: normal;
 }
 
 h2, h3 {
