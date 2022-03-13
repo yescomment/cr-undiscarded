@@ -74,11 +74,6 @@ h1 {
   text-align: center;
 }
 
-.showtitle small {
-  font-variant-caps: all-small-caps;
-  font-style: normal;
-}
-
 h2, h3 {
   font-weight: 800;
   margin: 28px 0;
@@ -115,9 +110,10 @@ h3 {
 }
 
 small {
-  /* all small caps */
+  /* all-small-caps don't work right */
   text-transform: lowercase;
   font-variant: small-caps;
+  font-size: .9em;
 }
 
 .number {
