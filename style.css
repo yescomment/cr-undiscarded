@@ -63,10 +63,10 @@ footer .logo {
 h1 {
   font-size: min(8rem, 20vw);
   font-family: 'Whirly Birdie', Impact, sans-serif;
-  font-variation-settings: 'wght' 50, 'wdth' 50, 'ital' 0;
+  font-weight: normal;
+  font-variation-settings: 'wght' 53, 'wdth' 50, 'ital' 14;
   margin: 28px 0;
-  font-style: italic;
-  transform: rotate(-12deg);
+  transform: rotate(-14deg);
   text-align: center;
 }
 
