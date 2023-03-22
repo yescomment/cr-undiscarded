@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  color: #e8e8a3;
-  background-color: #36ace5;
+  color: #bf2a3d;
+  background-color: #e8e8a3;
   font-family: 'Fern Web', system-ui, serif;
   margin: 0;
   width: 100vw;
@@ -35,7 +35,7 @@ footer aside {
   text-transform: uppercase;
   margin: auto;
   padding: 0.3em 0;
-  border: 3px #e8e8a3;
+  border: 3px #bf2a3d;
   border-top-style: solid;
   border-bottom-style: solid;
 }
@@ -237,7 +237,7 @@ figcaption.date {
 a {
   color: inherit;
   font-weight: 600;
-  text-decoration-color: #f8d8c3;
+  text-decoration-color: #bf2a3d;
   text-decoration-thickness: 2px;
 }
 
