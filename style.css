@@ -74,6 +74,7 @@ h1 {
 }
 
 .showtitle {
+  max-width: 1200px;
   text-align: center;
 }
 
