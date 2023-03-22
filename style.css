@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+}
+
 section,
 header,
 footer {
@@ -66,7 +70,6 @@ h1 {
   font-weight: normal;
   font-variation-settings: 'wght' 53, 'wdth' 50, 'ital' 14;
   margin: 28px 0;
-  transform: rotate(-14deg);
   text-align: center;
 }
 
