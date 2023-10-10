@@ -73,7 +73,8 @@ h1 {
   text-align: center;
 }
 
-.showtitle {
+.showtitle,
+.announcement {
   max-width: 1200px;
   text-align: center;
 }
